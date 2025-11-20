@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>KONCEPT MILIČIĆ d.o.o.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+            background-color: #87CEFA;
+            color: white;
+        }
+
+        h1, h2, h3, p {
+            font-size: 24px;
+        }
+
+        .section {
+            width: 100%;
+            padding: 80px 10%;
+            box-sizing: border-box;
+        }
+
+        .fullscreen {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .bg-darkened {
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .bg-darkened::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.55);
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .about-img {
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-left: 40px;
+        }
+
+        .services, .advantages, .process {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+
+        .contact-text {
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 1. HERO SECTION -->
+<section class="section fullscreen bg-darkened" style="background-image: url('https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0');">
+    <div class="content">
+        <h1 style="font-size: 48px; font-weight: bold;">KONCEPT MILIČIĆ d.o.o.</h1>
+        <h2 style="font-size: 30px;">
+            Stručni partner za tehničko savjetovanje, IT podršku i razvoj snažnih brendova.
+            Naš fokus je stvaranje digitalnih i operativnih rješenja koja pomažu poduzećima da rastu sigurnije, brže i pametnije.
+        </h2>
+    </div>
+</section>
+
+<!-- 2. ABOUT -->
+<section class="section" style="background-color:#6bbbf7;">
+    <h2 style="font-size:36px;">Tko smo mi – Vaš strateški partner u modernom poslovanju</h2>
+    <div class="about-container">
+        <p style="font-size:24px; max-width:60%;">
+            KONCEPT MILIČIĆ d.o.o. specijaliziran je za tehničko savjetovanje, digitalnu podršku i razvoj marketinških strategija 
+            koje omogućuju tvrtkama da unaprijede svoje poslovanje. Naš tim kombinira višegodišnje iskustvo u IT sektoru i 
+            stručnost u stvaranju brend identiteta, čime klijentima osiguravamo održiv rast. Fokusirani smo na rješavanje kompleksnih 
+            operativnih izazova i optimizaciju digitalnih procesa. Vjerujemo u jasnu komunikaciju, transparentan rad i dugoročnu suradnju 
+            s našim partnerima.
+        </p>
+
+        <img class="about-img" src="https://media.istockphoto.com/id/2160534812/photo/happy-hispanic-real-estate-agent-shows-house-to-young-latinx-couple-on-laptop.webp?a=1&b=1&s=612x612&w=0&k=20&c=yPzJscBw5G92_uoCzBmytsoX3lHMYURBTAVKUzgPuXI=">
+    </div>
+</section>
+
+<!-- 3. SERVICES -->
+<section class="section bg-darkened" style="background-image: url('https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0');">
+    <div class="content">
+        <h2 style="font-size:36px;">Naše Usluge – Rješenja koja unapređuju Vaše poslovanje</h2>
+        <div class="services">
+            <div>
+                <h3>Tehničko Savjetovanje</h3>
+                <p>
+                    Pomažemo tvrtkama u optimizaciji tehničkih procesa, implementaciji sigurnosnih standarda i modernizaciji infrastrukture. 
+                    Naš cilj je osigurati da svaki sustav radi pouzdano i učinkovito. Nudimo jasne preporuke i planove prilagođene vašim poslovnim potrebama.
+                </p>
+            </div>
+            <div>
+                <h3>IT & Soft Podrška</h3>
+                <p>
+                    Osiguravamo brzu i stručnu IT podršku, uključujući softverska rješenja, konfiguracije i digitalnu asistenciju. 
+                    Naš tim je dostupan za rješavanje svakodnevnih tehničkih izazova i održavanje stabilnog rada sustava. 
+                    Fokusirani smo na sigurnost, funkcionalnost i neprekidan rad.
+                </p>
+            </div>
+            <div>
+                <h3>Marketing & Brand Konsalting</h3>
+                <p>
+                    Razvijamo strategije koje jačaju prepoznatljivost brenda i pomažu u izgradnji povjerenja kod klijenata. 
+                    Kombiniramo kreativni pristup i analitiku kako bismo stvorili učinkovite marketinške kampanje. 
+                    Pomažemo vam oblikovati identitet koji jasno komunicira vrijednosti vaše tvrtke.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 4. ADVANTAGES -->
+<section class="section" style="background-color:#6bbbf7;">
+    <h2 style="font-size:36px;">Zašto Odabrati Nas – Prednosti Suradnje</h2>
+    <div class="advantages">
+        <div>
+            <h3>Individualni Pristup</h3>
+            <p>
+                Svaku suradnju gradimo na razumijevanju vaših ciljeva, prilagođavajući rješenja koja odgovaraju vašim specifičnim potrebama.
+            </p>
+        </div>
+        <div>
+            <h3>Brza i Pouzdana Podrška</h3>
+            <p>
+                Pružamo pravovremene i učinkovite odgovore na sve tehničke izazove, osiguravajući stabilan rad vašeg sustava.
+            </p>
+        </div>
+        <div>
+            <h3>Stručnost i Dugogodišnje Iskustvo</h3>
+            <p>
+                Naš tim donosi znanje iz različitih industrija, što nam omogućava da isporučimo kvalitetna i strateška rješenja.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 5. PROCESS -->
+<section class="section" style="background-color:#5aafea;">
+    <h2 style="font-size:36px;">Kako Radimo – Naš Proces Suradnje</h2>
+    <div class="process">
+        <div>
+            <h3>1. Analiza Potreba</h3>
+            <p>
+                Detaljno proučavamo vaše zahtjeve i izazove kako bismo definirali najbolji smjer djelovanja.
+            </p>
+        </div>
+        <div>
+            <h3>2. Razvoj Rješenja</h3>
+            <p>
+                Kreiramo tehnička, IT ili marketinška rješenja u skladu s vašim ciljevima i dugoročnom strategijom.
+            </p>
+        </div>
+        <div>
+            <h3>3. Implementacija i Podrška</h3>
+            <p>
+                Provodimo dogovorena rješenja te nastavljamo pružati podršku kako bi sustav funkcionirao bez poteškoća.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 6. CONTACTS -->
+<section class="section fullscreen bg-darkened" style="background-image: url('https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0');">
+    <div class="content">
+        <h2 style="font-size:36px;">Kontaktirajte Nas</h2>
+        <p class="contact-text" style="font-size:24px;">
+            Slobodno nam se obratite putem e-pošte za sva pitanja, suradnje ili projekte.  
+            Naš tim će vam odgovoriti brzo i profesionalno, kako bismo zajedno započeli uspješnu poslovnu priču.
+        </p>
+        <p style="font-size:26px; font-weight:bold;">Email: support@konceptmilicic.agency</p>
+        <p style="font-size:26px; font-weight:bold;">Adresa: Marijana Celjaka 38, 44000 Sisak</p>
+    </div>
+</section>
+
+</body>
+</html>
